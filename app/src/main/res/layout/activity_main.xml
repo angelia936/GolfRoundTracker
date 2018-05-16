@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Golf Round Tracker"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Round"
+        android:textColor="@color/white"
+        android:background="@color/bg_gradient_end"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/title_text"
+        android:id="@+id/start_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@color/bg_gradient_start"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="View Rounds"
+        android:textColor="@color/white"
+        android:id="@+id/view_button"/>
+
+</RelativeLayout>
